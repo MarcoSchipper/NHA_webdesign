@@ -1,0 +1,60 @@
+/* text */
+h3 {
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 1rem;
+}
+
+b {
+    color: blue;
+}
+
+td {
+    color: gray;
+}
+
+/* main */
+main {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+section {
+    margin: 2rem auto;
+}
+
+/* openingstijden */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+    width: 20rem;
+    margin: 2rem;
+}
+
+.container img {
+    width: 100%;
+}
+
+/* tarieven */
+table {
+    margin: auto;
+}
+
+table td {
+    border: 1px gray solid;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+table .lightgray {
+    background-color: lightgray;
+}
+
+/* videos */
+iframe {
+    frameborder: 0;
+}

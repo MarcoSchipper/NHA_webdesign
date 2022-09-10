@@ -1,0 +1,44 @@
+/* text */
+h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* main */
+main {
+    margin-top: 2rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+    width: 30rem;
+    margin: 2rem;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    padding: 0.5rem 0;
+}
+
+.container table {
+    width: 100%;
+}
+
+.container table td {
+    border: 1px gray solid;
+    padding: .25rem;
+}
+
+.container .gray {
+    background-color: lightgray;
+}
+
+.container audio {
+    width: 100%;
+}

@@ -1,0 +1,34 @@
+/* text */
+h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: red;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* main */
+
+main {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+section {
+    margin: 1rem auto;
+    width: 60%;
+    max-width: 60rem;
+}
+
+iframe {
+    width: 60%;
+    min-width: 40rem;
+    height: 30rem;
+}
+
+.bron {
+    color: rgb(110, 110, 110);
+}
