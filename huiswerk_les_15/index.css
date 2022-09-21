@@ -1,0 +1,74 @@
+/* main */
+.text {
+    background-color: whitesmoke;
+    width: 37rem;
+    margin: auto;
+    padding: 10px;
+    border: 3px solid purple;
+    border-radius: 1rem;
+}
+
+figure {
+    display: inline-block;
+    margin: 1rem 0;
+    padding: 5px;
+}
+
+figure img {
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid purple;
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+/* tooltip */
+p {
+    display: inline;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted blue;
+    color: blue;
+    cursor: help;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    background-color: purple;
+    color: yellow;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 0;
+    margin-left: -2.6rem;
+}
+
+.tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border: solid 5px;
+    border-color: purple transparent transparent transparent;
+}
+
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    width: 7rem;
+}
+
+/* contact link */
+a.contact {
+    border-bottom: 1px solid blue;
+    color: blue;
+}
