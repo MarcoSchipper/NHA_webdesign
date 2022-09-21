@@ -1,0 +1,78 @@
+body {
+    text-align: center;
+}
+
+main {
+    width: 60%;
+    min-width: 40rem;
+    background-color: rgb(219, 245, 253);
+    padding: 1rem;
+    border: 5px solid purple;
+    border-radius: 2rem;
+}
+
+main section:first-of-type {
+    padding-bottom: 1rem;
+}
+
+/* text */
+h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 5px;
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-weight: bolder;
+    padding: 0.5rem;
+}
+
+/* header */
+nav {
+    background-color: purple;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: yellow;
+    transition: background-color 1s;
+}
+
+nav ul li a:hover {
+    background-color: orange;
+    color: blue;
+}
+
+/* main */
+main {
+    margin: 2rem auto;
+}
+
+
+/* footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 3rem;
+    background-color: purple;
+    height: 3rem;
+    padding: 5px;
+    color: lightgray;
+}
