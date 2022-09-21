@@ -14,7 +14,7 @@ figure {
     padding: 5px;
 }
 
-img {
+figure img {
     width: 200px;
     border-radius: 50%;
     border: 3px solid purple;
