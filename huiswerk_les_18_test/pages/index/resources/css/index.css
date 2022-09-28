@@ -71,6 +71,15 @@ header {
 }
 
 /* footer */
+html, body, main {
+  height: 100%;
+}
+
+main {
+  overflow: auto;
+  margin-bottom: 6rem;
+}
+
 html {
     height: 100%;
     box-sizing: border-box;
@@ -216,19 +225,19 @@ footer p {
 
 /* footer fix */
 @media only screen and (min-width:343px) {
-    body {
-        padding-bottom: 5rem;
+    main {
+        margin-bottom: 5rem;
     }
 }
 
 @media only screen and (min-width:398px) {
-    body {
-        padding-bottom: 4rem;
+    main {
+        margin-bottom: 4rem;
     }
 }
 
 @media only screen and (min-width:741px) {
-    body {
-        padding-bottom: 3rem;
+    main {
+        margin-bottom: 3rem;
     }
 }
