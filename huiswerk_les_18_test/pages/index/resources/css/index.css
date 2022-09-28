@@ -1,0 +1,234 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+/* small smartphone */
+[class*="col-"] {width: 100%;}
+/* warning */
+.warning {
+    display: none;
+}
+
+/* text */
+h1 {
+    font-size: 10vw;
+    font-weight: 900;
+    color: white;
+    text-shadow: 0 0 10px red;
+    padding: calc(38.25vw / 4 - 5vw) 10vw;
+}
+
+h2 {
+    font-size: 7vw;
+    font-weight: 600;
+}
+
+b {
+    font-weight: 600;
+}
+
+/* header */
+header {
+    background-image: url(../../../../common/images/enschede.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: calc(38.25vw / 4 * 3);
+    padding: calc(38.25vw / 4 - 5vw) 0;
+}
+
+/* side */
+.side {
+    background-color: rgb(255, 150, 150);
+    border-top: 5px solid rgb(255, 100, 100);
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.side li {
+    padding: 0.5rem;
+}
+
+/* main */
+.main {
+    background-color: rgb(255, 200, 200);
+    border-top: 5px solid rgb(255, 100, 100);
+    border-bottom: 5px solid rgb(255, 100, 100);
+    padding: 1rem 0;
+}
+
+.art1, .art2 {
+    padding: 1rem 0;
+    width: 90%;
+    text-align: justify;
+    margin: auto;
+}
+
+.main p img {
+    float: right;
+    padding: 0 0.5rem 0.25rem 0.5rem;
+}
+
+/* footer */
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+    padding-bottom: 6rem;
+    box-sizing: inherit;
+    background-color: whitesmoke;
+}
+
+footer {
+    text-align: center;
+    background-color: lightgray;
+    color: red;
+    padding: 1rem 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+footer p {
+    display: inline-block;
+}
+
+/* <279px NO SUPPORT */
+@media only screen and (max-width:279px) {
+    .warning {
+        display: block;
+        text-align: center;
+        padding: 10vh 0;
+        width: 80%;
+        margin: auto;
+        font-weight: 600;
+    }
+
+    body *:not(.warning) {
+        display: none;
+    }
+}
+
+/* smartphone */
+@media only screen and (min-width:600px) {
+    h2 {
+        font-size: 2.65rem;
+    }
+}
+
+/* tablet */
+@media only screen and (min-width:768px) {
+    [class*="col-"] {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    /* text */
+    h1 {
+        font-size: 5rem;
+        font-weight: 900;
+        color: white;
+        text-shadow: 0 0 10px red;
+        padding: calc(38.25vw / 4 - 5vw) 10vw;
+    }
+
+    h2 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    /* header */
+    header {
+        height: 14rem;
+        padding: 2rem 0;
+    }
+
+    /* side */
+    .side {
+        background-color: rgb(255, 150, 150);
+        border: none;
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    .side li {
+        padding: 1rem;
+    }
+
+    /* main */
+    main {
+        border-top: 5px solid rgb(255, 100, 100);
+        border-bottom: 5px solid rgb(255, 100, 100);
+        text-align: center;
+    }
+
+    .main {
+        border: none;
+    }
+
+    .art1 p, .art2 p {
+        padding: 1rem 0;
+    }
+
+    .main p img {
+        width: 20%;
+        max-width: 8rem;
+        padding: 0 1rem 0.25rem 1rem;
+    }
+
+    .main, .side {
+        min-height: 43rem;
+        padding: 1rem 0.5rem;
+    }
+}
+
+/* large screen */
+@media only screen and (min-width:1200px) {
+    h1 {
+        padding: 3.6rem 7.6rem;
+    }
+}
+
+/* 4k screen */
+@media only screen and (min-width:2049px) {
+    *, html {
+        font-size: 24px;
+    }
+}
+
+/* footer fix */
+@media only screen and (min-width:343px) {
+    body {
+        padding-bottom: 5rem;
+    }
+}
+
+@media only screen and (min-width:398px) {
+    body {
+        padding-bottom: 4rem;
+    }
+}
+
+@media only screen and (min-width:741px) {
+    body {
+        padding-bottom: 3rem;
+    }
+}
