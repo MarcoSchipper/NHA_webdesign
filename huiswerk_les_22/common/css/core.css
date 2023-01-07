@@ -1,0 +1,16 @@
+main {
+    margin-top: 3rem;
+    min-height: calc(100vh - 200px - 13.5rem);
+}
+
+footer div {
+    margin-top: 5rem;
+    padding: 1rem 0;
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff0000;
+    border-radius: 1.25rem;
+}
